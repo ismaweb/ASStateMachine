@@ -47,7 +47,7 @@ package
 			// tells the machine to lock configuration and put it on the first state
 			sm.init();
 			
-			sm.socketTryConnect({url:"www.example.org",port:1234});
+			sm.socketTryConnect({url:"localhost",port:1234});
 		}
 		
 		private function tryConnect(sig:StateMachineSignal):void
